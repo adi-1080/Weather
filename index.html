@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="“Pragma”" content="”no-cache”" />
+    <meta http-equiv="“Expires”" content="”-1″" />
+    <meta http-equiv="“CACHE-CONTROL”" content="”NO-CACHE”" />
+    <title>EurOrbit</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/svg+xml" href="./assets/Designer.png" />
+</head>
+
+<body>
+    <img src="./assets/banner.jpg" alt="Could not load image" class="banner">
+    <div class="container">
+        Weather App for European Countries <br />
+        Get upto 7 days of accurate weather information
+    </div>
+    <form action="./index.js" id="query-form" class="options">
+        <select name="citySelected" id="citySelected" title="Drop down and select a city to forecast">
+            <option disabled selected value>--Select a city--</option>
+            <option value="{lat: '16.5735', lon: '80.3570'}">Amaravati, Andhra Pradesh</option>
+            <option value="{lat: '27.0844', lon: '93.6053'}">Itanagar, Arunachal Pradesh</option>
+            <option value="{lat: '26.1445', lon: '91.7362'}">Dispur, Assam</option>
+            <option value="{lat: '25.5941', lon: '85.1376'}">Patna, Bihar</option>
+            <option value="{lat: '21.2514', lon: '81.6296'}">Raipur, Chhattisgarh</option>
+            <option value="{lat: '15.4909', lon: '73.8278'}">Panaji, Goa</option>
+            <option value="{lat: '23.2156', lon: '72.6369'}">Gandhinagar, Gujarat</option>
+            <option value="{lat: '30.7333', lon: '76.7794'}">Chandigarh, Haryana</option>
+            <option value="{lat: '31.1048', lon: '77.1734'}">Shimla, Himachal Pradesh</option>
+            <option value="{lat: '23.3441', lon: '85.3096'}">Ranchi, Jharkhand</option>
+            <option value="{lat: '12.9716', lon: '77.5946'}">Bengaluru, Karnataka</option>
+            <option value="{lat: '8.5241', lon: '76.9366'}">Thiruvananthapuram, Kerala</option>
+            <option value="{lat: '23.2599', lon: '77.4126'}">Bhopal, Madhya Pradesh</option>
+            <option value="{lat: '19.0760', lon: '72.8777'}">Mumbai, Maharashtra</option>
+            <option value="{lat: '24.8170', lon: '93.9368'}">Imphal, Manipur</option>
+            <option value="{lat: '25.5788', lon: '91.8933'}">Shillong, Meghalaya</option>
+            <option value="{lat: '23.7271', lon: '92.7176'}">Aizawl, Mizoram</option>
+            <option value="{lat: '25.6747', lon: '94.1101'}">Kohima, Nagaland</option>
+            <option value="{lat: '20.2961', lon: '85.8245'}">Bhubaneswar, Odisha</option>
+            <option value="{lat: '26.9124', lon: '75.7873'}">Jaipur, Rajasthan</option>
+            <option value="{lat: '27.3314', lon: '88.6138'}">Gangtok, Sikkim</option>
+            <option value="{lat: '13.0827', lon: '80.2707'}">Chennai, Tamil Nadu</option>
+            <option value="{lat: '17.3850', lon: '78.4867'}">Hyderabad, Telangana</option>
+            <option value="{lat: '23.8315', lon: '91.2868'}">Agartala, Tripura</option>
+            <option value="{lat: '26.8467', lon: '80.9462'}">Lucknow, Uttar Pradesh</option>
+            <option value="{lat: '30.3165', lon: '78.0322'}">Dehradun, Uttarakhand</option>
+            <option value="{lat: '22.5726', lon: '88.3639'}">Kolkata, West Bengal</option>
+            <!-- Union Territories -->
+            <option value="{lat: '11.6234', lon: '92.7265'}">Port Blair, Andaman and Nicobar Islands</option>
+            <option value="{lat: '30.7333', lon: '76.7794'}">Chandigarh, Chandigarh</option>
+            <option value="{lat: '20.3974', lon: '72.8328'}">Daman, Dadra and Nagar Haveli and Daman and Diu</option>
+            <option value="{lat: '10.5593', lon: '72.6358'}">Kavaratti, Lakshadweep</option>
+            <option value="{lat: '28.6139', lon: '77.2090'}">New Delhi, Delhi</option>
+            <option value="{lat: '11.9416', lon: '79.8083'}">Pondicherry, Puducherry</option>
+            <option value="{lat: '34.0837', lon: '74.7973'}">Srinagar (Summer), Jammu and Kashmir</option>
+            <option value="{lat: '32.7266', lon: '74.8570'}">Jammu (Winter), Jammu and Kashmir</option>
+            <option value="{lat: '34.1526', lon: '77.5771'}">Leh, Ladakh</option>
+
+        </select>
+    </form>
+
+    <footer class="footer">Copyright &copy 2024</footer>
+</body>
+<script src="index.js"></script>
+
+</html>
