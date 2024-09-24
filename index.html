@@ -12,9 +12,10 @@
 </head>
 
 <body>
+    
     <img src="./assets/banner.jpg" alt="Could not load image" class="banner">
     <div class="container">
-        Weather App for European Countries <br />
+        Weather App <br />
         Get upto 7 days of accurate weather information
     </div>
     <form action="./index.js" id="query-form" class="options">
@@ -61,8 +62,17 @@
         </select>
     </form>
 
+    <div id="weather-data"></div>
+
+    <div class="search-container">
+        <input type="text" id="city-name" placeholder="Enter city name" />
+        <button id="search-button">Search</button>
+    </div>
+
+    <div class="spacer"></div>
+
     <footer class="footer">Copyright &copy 2024</footer>
 </body>
-<script src="index.js"></script>
+<script src="script.js"></script>
 
 </html>
